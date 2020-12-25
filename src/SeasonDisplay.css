@@ -1,0 +1,35 @@
+.season-display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.winter{
+    background-color: aliceblue;
+    background-image: url("https://roxburyreview.com/wp-content/uploads/2019/12/download.jpeg");
+}
+.summer{
+    background-color: orange;
+    background-image: url("https://cdn.images.express.co.uk/img/dynamic/153/750x445/1237861.jpg");
+
+}
+.icon-left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.icon-right{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.season-display.winter i{
+    color: blue;
+}
+.season-display.summer i{
+    color: yellow;
+}
